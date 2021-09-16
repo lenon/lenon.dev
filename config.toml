@@ -1,12 +1,13 @@
 baseURL = "https://lenon.dev/"
-languageCode = "en-us"
-title = "lenon.dev"
+languageCode = "en-US"
+title = "Lenon Oliveira"
 theme = "hugo-bearblog"
 author = "Lenon Oliveira"
 copyright = "Copyright © 2021, Lenon Oliveira."
 
 [params]
   hideMadeWithLine = true
+  description = "Lenon Oliveira's blog"
 
 [markup.highlight]
   tabWidth = 2
