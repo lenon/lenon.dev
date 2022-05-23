@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Lenon Oliveira</title>
+    <link>https://lenon.dev/tags/</link>
+    <description>Recent content in Tags on Lenon Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2021, Lenon Oliveira.</copyright>
+    <lastBuildDate>Mon, 24 May 2021 22:00:00 +0000</lastBuildDate><atom:link href="https://lenon.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>http</title>
+      <link>https://lenon.dev/tags/http/</link>
+      <pubDate>Mon, 24 May 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://lenon.dev/tags/http/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>python</title>
+      <link>https://lenon.dev/tags/python/</link>
+      <pubDate>Mon, 24 May 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://lenon.dev/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>blogging</title>
+      <link>https://lenon.dev/tags/blogging/</link>
+      <pubDate>Sun, 25 Oct 2020 21:00:00 +0000</pubDate>
+      
+      <guid>https://lenon.dev/tags/blogging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>github</title>
+      <link>https://lenon.dev/tags/github/</link>
+      <pubDate>Sun, 25 Oct 2020 21:00:00 +0000</pubDate>
+      
+      <guid>https://lenon.dev/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hugo</title>
+      <link>https://lenon.dev/tags/hugo/</link>
+      <pubDate>Sun, 25 Oct 2020 21:00:00 +0000</pubDate>
+      
+      <guid>https://lenon.dev/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rails</title>
+      <link>https://lenon.dev/tags/rails/</link>
+      <pubDate>Thu, 08 Oct 2020 02:28:29 +0000</pubDate>
+      
+      <guid>https://lenon.dev/tags/rails/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ruby</title>
+      <link>https://lenon.dev/tags/ruby/</link>
+      <pubDate>Thu, 08 Oct 2020 02:28:29 +0000</pubDate>
+      
+      <guid>https://lenon.dev/tags/ruby/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TIL</title>
+      <link>https://lenon.dev/tags/til/</link>
+      <pubDate>Thu, 08 Oct 2020 02:28:29 +0000</pubDate>
+      
+      <guid>https://lenon.dev/tags/til/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
