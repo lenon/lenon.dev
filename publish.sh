@@ -24,12 +24,13 @@ fi
 
 # sync new changes and remove stale files
 # keep .git intact because we need to commit files later
-# keep CNAME intact because it is used by GitHub pages
+# keep CNAME and .nojekyll intact because they are used by GitHub pages
 rsync --verbose \
     --archive \
     --delete \
     --exclude .git \
     --exclude CNAME \
+    --exclude .nojekyll \
     "$builddir/" .
 
 # add changes, commit and push
