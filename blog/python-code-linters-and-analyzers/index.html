@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Python code linters and analyzers | Lenon Oliveira</title>
+<meta name="title" content="Python code linters and analyzers" />
+<meta name="description" content="Code linters are great for finding errors, bugs, and code smells before they reach production. They help keep the code base readable, maintainable, and consistent. Some linters are focused only on code style, while others can offer more in-depth refactoring suggestions.
+In this post, I made a small list to compare some of the available code linters for Python because a lot has changed since the last time I checked them." />
+<meta name="keywords" content="python,code quality,linters," />
+
+
+<meta property="og:title" content="Python code linters and analyzers" />
+<meta property="og:description" content="Code linters are great for finding errors, bugs, and code smells before they reach production. They help keep the code base readable, maintainable, and consistent. Some linters are focused only on code style, while others can offer more in-depth refactoring suggestions.
+In this post, I made a small list to compare some of the available code linters for Python because a lot has changed since the last time I checked them." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://lenon.dev/blog/python-code-linters-and-analyzers/" /><meta property="article:section" content="blog" />
+<meta property="article:published_time" content="2022-06-05T15:00:00+00:00" />
+<meta property="article:modified_time" content="2022-06-05T15:00:00+00:00" />
+
+
+
+
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Python code linters and analyzers"/>
+<meta name="twitter:description" content="Code linters are great for finding errors, bugs, and code smells before they reach production. They help keep the code base readable, maintainable, and consistent. Some linters are focused only on code style, while others can offer more in-depth refactoring suggestions.
+In this post, I made a small list to compare some of the available code linters for Python because a lot has changed since the last time I checked them."/>
+
+
+
+<meta itemprop="name" content="Python code linters and analyzers">
+<meta itemprop="description" content="Code linters are great for finding errors, bugs, and code smells before they reach production. They help keep the code base readable, maintainable, and consistent. Some linters are focused only on code style, while others can offer more in-depth refactoring suggestions.
+In this post, I made a small list to compare some of the available code linters for Python because a lot has changed since the last time I checked them."><meta itemprop="datePublished" content="2022-06-05T15:00:00+00:00" />
+<meta itemprop="dateModified" content="2022-06-05T15:00:00+00:00" />
+<meta itemprop="wordCount" content="762">
+<meta itemprop="keywords" content="python,code quality,linters," />
+<meta name="referrer" content="no-referrer-when-downgrade" />
+
+  <style>
+  body {
+    font-family: Verdana, sans-serif;
+    margin: auto;
+    padding: 20px;
+    max-width: 720px;
+    text-align: left;
+    background-color: #fff;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    line-height: 1.5;
+    color: #444;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  strong,
+  b {
+    color: #222;
+  }
+
+  a {
+    color: #3273dc;
+    text-underline-position: under;
+  }
+
+  .title {
+    text-decoration: none;
+    border: 0;
+  }
+
+  .title h2 {
+    font-weight: normal;
+  }
+
+  .title span {
+    font-weight: 400;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  nav a {
+    margin-right: 10px;
+  }
+
+  textarea {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  input {
+    font-size: 16px;
+  }
+
+  content {
+    line-height: 1.6;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  img {
+    max-width: 100%;
+  }
+
+  code {
+    padding: 2px 5px;
+    background-color: #f2f2f2;
+  }
+
+  pre code {
+    color: #222;
+    display: block;
+    padding: 20px;
+    white-space: pre-wrap;
+    font-size: 14px;
+  }
+
+  div.highlight pre {
+    background-color: initial;
+    color: initial;
+  }
+
+  div.highlight code {
+    background-color: unset;
+    color: unset;
+    white-space: pre;
+    overflow-x: auto;
+    overflow-wrap: normal;
+  }
+
+  blockquote {
+    border-left: 1px solid #999;
+    color: #222;
+    padding-left: 20px;
+    font-style: italic;
+  }
+
+  footer {
+    padding: 25px;
+    text-align: center;
+  }
+
+  .helptext {
+    color: #777;
+    font-size: small;
+  }
+
+  .errorlist {
+    color: #eba613;
+    font-size: small;
+  }
+
+   
+  ul.blog-posts {
+    list-style-type: none;
+    padding: unset;
+  }
+
+  ul.blog-posts li {
+    display: flex;
+  }
+
+  ul.blog-posts li span {
+    flex: 0 0 130px;
+  }
+
+  ul.blog-posts li a:visited {
+    color: #8b6fcb;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    body {
+      background-color: #333;
+      color: #ddd;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    strong,
+    b {
+      color: #eee;
+    }
+
+    a {
+      color: #8cc2dd;
+    }
+
+    code {
+      background-color: #777;
+    }
+
+    pre code {
+      color: #ddd;
+    }
+
+    blockquote {
+      color: #ccc;
+    }
+
+    textarea,
+    input {
+      background-color: #252525;
+      color: #ddd;
+    }
+
+    .helptext {
+      color: #aaa;
+    }
+  }
+
+  @media (max-width: 576px) {
+    header {
+      display: block;
+    }
+  }
+</style>
+<style>
+  .experience {
+    margin-top: 2em;
+    display: grid;
+    grid-template-columns: minmax(1fr, auto) 1fr;
+    grid-template-areas: "company date"
+                         "position location";
+    grid-column-gap: .3em;
+    align-items: baseline;
+  }
+
+    .experience .company,
+    .experience .position,
+    .experience .date,
+    .experience .location {
+      margin: 0;
+    }
+
+    .experience .company {
+      grid-area: company;
+    }
+
+    .experience .position {
+      grid-area: position;
+    }
+
+    .experience .date {
+      grid-area: date;
+      text-align: right;
+    }
+
+    .experience .location {
+      grid-area: location;
+      text-align: right;
+    }
+
+  .icon {
+    width: 1em;
+    height: 1em;
+    display: inline-block;
+    vertical-align: -.125em;
+  }
+</style>
+</head>
+
+<body>
+  <header><a href="/" class="title">
+  <h2>Lenon Oliveira</h2>
+</a>
+<nav><a href="/">Home</a>
+
+<a href="/resume/">Résumé/CV</a>
+
+
+<a href="/blog">Blog</a>
+
+</nav>
+</header>
+  <main>
+
+<h1>Python code linters and analyzers</h1>
+<p>
+  <i>
+    <time datetime='2022-06-05' pubdate>
+      05 Jun, 2022
+    </time>
+  </i>
+</p>
+
+<content>
+  <p>Code linters are great for finding errors, bugs, and code smells before they
+reach production. They help keep the code base readable, maintainable, and
+consistent. Some linters are focused only on code style, while others can offer
+more in-depth refactoring suggestions.</p>
+<p>In this post, I made a small list to compare some of the available code linters
+for Python because a lot has changed since the last time I checked them. I
+included a brief description of the most relevant features of each one of them,
+and at the end of this post, I share what I think makes sense for new Python
+projects.</p>
+<p>Let’s get started by remembering what PEP 8 is.</p>
+<h2 id="pep-8">PEP 8</h2>
+<p><a href="https://peps.python.org/pep-0008/">PEP 8</a> is a document that defines a style guide for writing Python code. It
+contains rules about the use of tabs or spaces, how many of them to use, how to
+indent code, what is the correct order of imports, among many other suggestions.</p>
+<p>Style linters for Python usually follow PEP 8.</p>
+<h2 id="black">Black</h2>
+<p><a href="https://github.com/psf/black">Black</a> is an auto-formatter for Python, similar to <a href="https://pkg.go.dev/cmd/gofmt">gofmt</a>. It follows PEP 8,
+has minimal configuration options, and is very opinionated about how your code
+should look.</p>
+<p>Black only cares about style, so it is <a href="https://black.readthedocs.io/en/stable/the_black_code_style/current_style.html#ast-before-and-after-formatting">safe to use</a>. It checks
+that the code before and after formatting is semantically equivalent by
+comparing their ASTs.</p>
+<p>One of the advantages of using auto-formatters like Black is that they help
+reduce <em>bikeshedding</em> in code reviews. Developers will have more time to focus
+on what is important since there&rsquo;s no code style to discuss. You just have to
+run Black and that&rsquo;s all.</p>
+<h2 id="pylint">Pylint</h2>
+<p><a href="https://github.com/PyCQA/pylint">Pylint</a> is a static code analyzer for Python. It can check for errors, code
+style, code smells, suggest refactorings, and even detect duplicated code. It
+follows PEP 8 by default, but it is also highly configurable, so you can adapt
+it to follow your own conventions.</p>
+<p>In my experience, Pylint is a powerful and useful tool. I like that it warns
+about <a href="https://github.com/satwikkansal/wtfpython#-beware-of-default-mutable-arguments">mutable default arguments</a>, unused
+variables and imports, and many other issues. Unfortunately, it is a bit slow
+for large projects, so if you want to integrate it with your CI workflow, you
+may need to disable some <a href="https://pylint.pycqa.org/en/latest/user_guide/messages/index.html">messages</a>.</p>
+<p>It also emits some false positives that you may need to look at and even disable
+depending on the context.</p>
+<h2 id="pyflakes">Pyflakes</h2>
+<p><a href="https://github.com/PyCQA/pyflakes">Pyflakes</a> is a simple tool that can detect code errors. It is a faster but
+limited alternative to Pylint. It has no configuration, does not check for
+style, and tries “very hard to never emit false positives.” Pyflakes is a good
+alternative if Pylint is too slow for you.</p>
+<h2 id="pycodestyle">pycodestyle</h2>
+<p><a href="https://github.com/PyCQA/pycodestyle">pycodestyle</a> is another tool that can detect violations of PEP 8. It is fast, but
+also very simple and limited in what it can detect. It&rsquo;s possible to configure
+which messages to ignore.</p>
+<h2 id="autopep8">autopep8</h2>
+<p><a href="https://github.com/hhatto/autopep8">autopep8</a> can auto-format Python code to follow PEP 8. Under the hood, it uses
+<a href="https://github.com/PyCQA/pycodestyle">pycodestyle</a>.</p>
+<h2 id="flake8">Flake8</h2>
+<p><a href="https://github.com/PyCQA/flake8">Flake8</a> is a wrapper around <a href="https://github.com/PyCQA/pyflakes">Pyflakes</a>, <a href="https://github.com/PyCQA/pycodestyle">pycodestyle</a>, and <a href="https://github.com/PyCQA/mccabe">McCabe complexity
+checker</a>. It groups all those tools under a single command, and adds some
+features, like the ability to skip files and ignore specific errors on a line.</p>
+<h2 id="isort">isort</h2>
+<p><a href="https://github.com/PyCQA/isort">isort</a> is a tool focused on organizing imports. It is a highly configurable
+auto-formatter and can sort imports alphabetically, into sections, and by type.
+By default, it follows the order recommended by PEP 8. It has a profile that is
+compatible with <a href="https://github.com/psf/black">Black</a>.</p>
+<h2 id="bandit">Bandit</h2>
+<p><a href="https://github.com/PyCQA/bandit">Bandit</a> is a code analyzer that is designed to find security issues. It can warn
+about unsafe function calls, hardcoded paths, passwords, and insecure hashing
+algorithms (like MD5, SHA1), among other things.</p>
+<h2 id="vulture">Vulture</h2>
+<p><a href="https://github.com/jendrikseipp/vulture">Vulture</a> is focused on finding unused Python code. It is useful to keep the
+code base organized and reduce the burden of having to maintain code that is not
+even used anymore.</p>
+<p>In dynamic languages like Python, tools like Vulture will eventually incorrectly
+flag or miss dead code. This does not make it less useful, but you&rsquo;ll need to
+take a closer look to make sure the report makes sense or not.</p>
+<h2 id="which-one-should-i-use">Which one should I use?</h2>
+<p>Older projects are often more complicated to change and depend on various
+aspects, like which Python is in use, if there&rsquo;s good test coverage (if any),
+etc. It&rsquo;s hard to recommend anything that would work in all contexts.</p>
+<p>On the other hand, if you are starting a new Python project or your project is
+still small, I would recommend Black for style, isort for imports, and Pylint
+for other refactoring suggestions. Bandit and Vulture are also good options to
+use.</p>
+
+</content>
+<p>
+  
+  <a href="https://lenon.dev/tags/python/">#python</a>
+  
+  <a href="https://lenon.dev/tags/code-quality/">#code quality</a>
+  
+  <a href="https://lenon.dev/tags/linters/">#linters</a>
+  
+</p>
+
+  </main>
+  <footer>
+</footer>
+
+    
+</body>
+
+</html>

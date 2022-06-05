@@ -7,22 +7,40 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2021, Lenon Oliveira.</copyright>
-    <lastBuildDate>Mon, 24 May 2021 22:00:00 +0000</lastBuildDate><atom:link href="https://lenon.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jun 2022 15:00:00 +0000</lastBuildDate><atom:link href="https://lenon.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>http</title>
-      <link>https://lenon.dev/tags/http/</link>
-      <pubDate>Mon, 24 May 2021 22:00:00 +0000</pubDate>
+      <title>code quality</title>
+      <link>https://lenon.dev/tags/code-quality/</link>
+      <pubDate>Sun, 05 Jun 2022 15:00:00 +0000</pubDate>
       
-      <guid>https://lenon.dev/tags/http/</guid>
+      <guid>https://lenon.dev/tags/code-quality/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>linters</title>
+      <link>https://lenon.dev/tags/linters/</link>
+      <pubDate>Sun, 05 Jun 2022 15:00:00 +0000</pubDate>
+      
+      <guid>https://lenon.dev/tags/linters/</guid>
       <description></description>
     </item>
     
     <item>
       <title>python</title>
       <link>https://lenon.dev/tags/python/</link>
-      <pubDate>Mon, 24 May 2021 22:00:00 +0000</pubDate>
+      <pubDate>Sun, 05 Jun 2022 15:00:00 +0000</pubDate>
       
       <guid>https://lenon.dev/tags/python/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>http</title>
+      <link>https://lenon.dev/tags/http/</link>
+      <pubDate>Mon, 24 May 2021 22:00:00 +0000</pubDate>
+      
+      <guid>https://lenon.dev/tags/http/</guid>
       <description></description>
     </item>
     

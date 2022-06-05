@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>code quality on Lenon Oliveira</title>
+    <link>https://lenon.dev/tags/code-quality/</link>
+    <description>Recent content in code quality on Lenon Oliveira</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-US</language>
+    <copyright>Copyright © 2021, Lenon Oliveira.</copyright>
+    <lastBuildDate>Sun, 05 Jun 2022 15:00:00 +0000</lastBuildDate><atom:link href="https://lenon.dev/tags/code-quality/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Python code linters and analyzers</title>
+      <link>https://lenon.dev/blog/python-code-linters-and-analyzers/</link>
+      <pubDate>Sun, 05 Jun 2022 15:00:00 +0000</pubDate>
+      
+      <guid>https://lenon.dev/blog/python-code-linters-and-analyzers/</guid>
+      <description>Code linters are great for finding errors, bugs, and code smells before they reach production. They help keep the code base readable, maintainable, and consistent. Some linters are focused only on code style, while others can offer more in-depth refactoring suggestions.
+In this post, I made a small list to compare some of the available code linters for Python because a lot has changed since the last time I checked them.</description>
+    </item>
+    
+  </channel>
+</rss>
