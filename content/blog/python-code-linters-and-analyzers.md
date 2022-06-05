@@ -15,7 +15,7 @@ included a brief description of the most relevant features of each one of them,
 and at the end of this post, I share what I think makes sense for new Python
 projects.
 
-Let’s get started by remembering what PEP 8 is.
+Let's get started by remembering what PEP 8 is.
 
 ## PEP 8
 
