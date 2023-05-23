@@ -15,7 +15,7 @@
       
       <guid>https://lenon.dev/blog/how-to-list-rails-routes-programmatically/</guid>
       <description>While developing a Rails app you can use the task bin/rails routes to list the available routes and their respective controllers and actions. But in case you need to list and manipulate them programmatically, you can use the following snippet:
-Rails.application.routes.routes.each do |route|  ... end The double .routes is not a typo as you can see:
+Rails.application.routes.routes.each do |route| ... end The double .routes is not a typo as you can see:
 pry(main)&amp;gt; Rails.application.routes.class =&amp;gt; ActionDispatch::Routing::RouteSet pry(main)&amp;gt; Rails.application.routes.routes.class =&amp;gt; ActionDispatch::Journey::Routes It is possible to replace the second routes by set like this if you prefer:</description>
     </item>
     
