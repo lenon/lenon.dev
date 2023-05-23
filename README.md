@@ -5,12 +5,10 @@ powered by Hugo and GitHub pages.
 
 ## Cloning
 
-Run the following commands:
+Run the following command:
 
 ```sh
-git clone git@github.com:lenon/lenon.dev.git
-git submodule init
-git submodule update
+git clone --recurse-submodules git@github.com:lenon/lenon.dev.git
 ```
 
 ## Updating
@@ -18,3 +16,9 @@ git submodule update
 There's a workflow that runs whenever a commit is pushed to the main branch. The
 workflow builds the site with Hugo and pushes changes to the `gh-pages` branch.
 GitHub pages then publishes the site.
+
+To update the theme, use this command:
+
+```sh
+git submodule update --remote
+```
