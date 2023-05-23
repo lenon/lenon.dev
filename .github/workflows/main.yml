@@ -8,4 +8,4 @@ jobs:
         with:
           submodules: true
           fetch-depth: 0
-      - run: publish.sh
+      - run: ./publish.sh
