@@ -5,12 +5,12 @@ menu = "main"
 
 ## Summary
 
-I'm a Software Engineer with more than ten years of experience developing web
-applications and APIs. I have a strong background in Ruby, Python, and
-JavaScript, but I can learn new concepts quickly and adapt to change easily due
-to my multidisciplinary and open-minded approach. In my career, I've been
-working with companies and teams of different sizes, always playing an active
-role in technical decisions and delivering high-quality software.
+I am a Senior Software Engineer with more than ten years of experience in
+developing web applications and APIs. I have a strong background in Ruby,
+Python, and JavaScript. I can learn and adapt to new concepts quickly, thanks to
+my multidisciplinary and open-minded approach. In my career, I have worked with
+companies and teams of various sizes, always playing an active role in technical
+decisions and delivering high-quality software.
 
 ## Tech skills
 
