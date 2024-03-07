@@ -1,3 +1,4 @@
 [submodule "themes/hugo-bearblog"]
 	path = themes/hugo-bearblog
 	url = https://github.com/lenon/hugo-bearblog.git
+	branch = main
