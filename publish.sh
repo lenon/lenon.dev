@@ -12,7 +12,7 @@ mkdir -p "$builddir"
 
 # assuming we are on main branch
 # let's build the static site using Hugo
-hugo --verbose --destination "$builddir"
+hugo --logLevel info --destination "$builddir"
 
 # create a new orphan branch for gh-pages if it does not exist yet
 # otherwise just track the remote branch
