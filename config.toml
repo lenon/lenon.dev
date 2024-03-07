@@ -3,7 +3,7 @@ languageCode = "en-US"
 title = "Lenon Oliveira"
 theme = "hugo-bearblog"
 author = "Lenon Oliveira"
-copyright = "Copyright © 2021, Lenon Oliveira."
+copyright = "Copyright © 2024, Lenon Oliveira."
 
 [params]
   hideMadeWithLine = true
