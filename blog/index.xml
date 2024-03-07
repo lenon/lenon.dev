@@ -7,45 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2021, Lenon Oliveira.</copyright>
-    <lastBuildDate>Sun, 05 Jun 2022 15:00:00 +0000</lastBuildDate><atom:link href="https://lenon.dev/blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jun 2022 15:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lenon.dev/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Python code linters and analyzers</title>
       <link>https://lenon.dev/blog/python-code-linters-and-analyzers/</link>
       <pubDate>Sun, 05 Jun 2022 15:00:00 +0000</pubDate>
-      
       <guid>https://lenon.dev/blog/python-code-linters-and-analyzers/</guid>
-      <description>Code linters are great for finding errors, bugs, and code smells before they reach production. They help keep the code base readable, maintainable, and consistent. Some linters are focused only on code style, while others can offer more in-depth refactoring suggestions.
-In this post, I made a small list to compare some of the available code linters for Python because a lot has changed since the last time I checked them.</description>
+      <description>Code linters are great for finding errors, bugs, and code smells before they reach production. They help keep the code base readable, maintainable, and consistent. Some linters are focused only on code style, while others can offer more in-depth refactoring suggestions.&#xA;In this post, I made a small list to compare some of the available code linters for Python because a lot has changed since the last time I checked them.</description>
     </item>
-    
     <item>
       <title>Downloading and caching large files using Python</title>
       <link>https://lenon.dev/blog/downloading-and-caching-large-files-using-python/</link>
       <pubDate>Mon, 24 May 2021 22:00:00 +0000</pubDate>
-      
       <guid>https://lenon.dev/blog/downloading-and-caching-large-files-using-python/</guid>
       <description>While writing a small Python library to download and parse a large CSV file from the web, I had to implement a strategy to cache the file locally and avoid downloading it on every execution. I wanted the library to download the file only once on the first execution and also when it has changed on the server. In this blog post I&amp;rsquo;m describing how to implement this with Python, basic HTTP headers and file manipulation.</description>
     </item>
-    
     <item>
       <title>How to publish a blog on GitHub Pages with Hugo and GitHub Actions</title>
       <link>https://lenon.dev/blog/how-to-publish-a-blog-on-github-pages-with-hugo-and-github-actions/</link>
       <pubDate>Sun, 25 Oct 2020 21:00:00 +0000</pubDate>
-      
       <guid>https://lenon.dev/blog/how-to-publish-a-blog-on-github-pages-with-hugo-and-github-actions/</guid>
       <description>I decided to start a new blog and, after looking at many of the available options for blogging, I chose a static site generator. I had used Jekyll in the past, but this time I wanted to try something new, so I gave Hugo a try. I also wanted to publish this blog to GitHub Pages whenever I push new content to the GitHub repo. So in this blog post I describe how I&amp;rsquo;m using it along with GitHub actions to automatically deploy this blog to GitHub Pages.</description>
     </item>
-    
     <item>
       <title>How to List Rails Routes Programmatically</title>
       <link>https://lenon.dev/blog/how-to-list-rails-routes-programmatically/</link>
       <pubDate>Thu, 08 Oct 2020 02:28:29 +0000</pubDate>
-      
       <guid>https://lenon.dev/blog/how-to-list-rails-routes-programmatically/</guid>
-      <description>While developing a Rails app you can use the task bin/rails routes to list the available routes and their respective controllers and actions. But in case you need to list and manipulate them programmatically, you can use the following snippet:
-Rails.application.routes.routes.each do |route| ... end The double .routes is not a typo as you can see:
-pry(main)&amp;gt; Rails.application.routes.class =&amp;gt; ActionDispatch::Routing::RouteSet pry(main)&amp;gt; Rails.application.routes.routes.class =&amp;gt; ActionDispatch::Journey::Routes It is possible to replace the second routes by set like this if you prefer:</description>
+      <description>While developing a Rails app you can use the task bin/rails routes to list the available routes and their respective controllers and actions. But in case you need to list and manipulate them programmatically, you can use the following snippet:&#xA;Rails.application.routes.routes.each do |route| ... end The double .routes is not a typo as you can see:&#xA;pry(main)&amp;gt; Rails.application.routes.class =&amp;gt; ActionDispatch::Routing::RouteSet pry(main)&amp;gt; Rails.application.routes.routes.class =&amp;gt; ActionDispatch::Journey::Routes It is possible to replace the second routes by set like this if you prefer:</description>
     </item>
-    
   </channel>
 </rss>

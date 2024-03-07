@@ -7,96 +7,77 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
     <copyright>Copyright © 2021, Lenon Oliveira.</copyright>
-    <lastBuildDate>Sun, 05 Jun 2022 15:00:00 +0000</lastBuildDate><atom:link href="https://lenon.dev/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 05 Jun 2022 15:00:00 +0000</lastBuildDate>
+    <atom:link href="https://lenon.dev/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>code quality</title>
+      <title>Code Quality</title>
       <link>https://lenon.dev/tags/code-quality/</link>
       <pubDate>Sun, 05 Jun 2022 15:00:00 +0000</pubDate>
-      
       <guid>https://lenon.dev/tags/code-quality/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>linters</title>
+      <title>Linters</title>
       <link>https://lenon.dev/tags/linters/</link>
       <pubDate>Sun, 05 Jun 2022 15:00:00 +0000</pubDate>
-      
       <guid>https://lenon.dev/tags/linters/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>python</title>
+      <title>Python</title>
       <link>https://lenon.dev/tags/python/</link>
       <pubDate>Sun, 05 Jun 2022 15:00:00 +0000</pubDate>
-      
       <guid>https://lenon.dev/tags/python/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>http</title>
+      <title>Http</title>
       <link>https://lenon.dev/tags/http/</link>
       <pubDate>Mon, 24 May 2021 22:00:00 +0000</pubDate>
-      
       <guid>https://lenon.dev/tags/http/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>blogging</title>
+      <title>Blogging</title>
       <link>https://lenon.dev/tags/blogging/</link>
       <pubDate>Sun, 25 Oct 2020 21:00:00 +0000</pubDate>
-      
       <guid>https://lenon.dev/tags/blogging/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>github</title>
+      <title>Github</title>
       <link>https://lenon.dev/tags/github/</link>
       <pubDate>Sun, 25 Oct 2020 21:00:00 +0000</pubDate>
-      
       <guid>https://lenon.dev/tags/github/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>hugo</title>
+      <title>Hugo</title>
       <link>https://lenon.dev/tags/hugo/</link>
       <pubDate>Sun, 25 Oct 2020 21:00:00 +0000</pubDate>
-      
       <guid>https://lenon.dev/tags/hugo/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>rails</title>
+      <title>Rails</title>
       <link>https://lenon.dev/tags/rails/</link>
       <pubDate>Thu, 08 Oct 2020 02:28:29 +0000</pubDate>
-      
       <guid>https://lenon.dev/tags/rails/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ruby</title>
+      <title>Ruby</title>
       <link>https://lenon.dev/tags/ruby/</link>
       <pubDate>Thu, 08 Oct 2020 02:28:29 +0000</pubDate>
-      
       <guid>https://lenon.dev/tags/ruby/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>TIL</title>
       <link>https://lenon.dev/tags/til/</link>
       <pubDate>Thu, 08 Oct 2020 02:28:29 +0000</pubDate>
-      
       <guid>https://lenon.dev/tags/til/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
