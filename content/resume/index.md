@@ -5,20 +5,17 @@ menu = "main"
 
 ## Summary
 
-I am a Senior Software Engineer with more than ten years of experience in
-developing web applications and APIs. I have a strong background in Ruby,
-Python, and JavaScript. I can learn and adapt to new concepts quickly, thanks to
-my multidisciplinary and open-minded approach. In my career, I have worked with
-companies and teams of various sizes, always playing an active role in technical
-decisions and delivering high-quality software.
+I am a Senior Software Engineer with more than ten years of experience in developing web
+applications and APIs. I have a strong background in Ruby, Python, and JavaScript. I can learn and
+adapt to new concepts quickly, thanks to my multidisciplinary and open-minded approach. Throughout
+my career, I have worked with companies and teams of various sizes, always playing an active role in
+technical decisions and delivering high-quality software.
 
 ## Tech skills
 
-Languages and frameworks: Ruby, Ruby on Rails, Python, JavaScript, Node.js,
-React, Clojure.\
-Test frameworks: RSpec, Capybara, MiniTest, PyTest, Jest.\
-Cloud infrastructure: AWS EC2, ECS, RDS (PostgreSQL), AWS Lambda, SQS,
-CloudFormation, Docker, Kubernetes (EKS).\
+Languages: Ruby, Python, JavaScript (Node.js), Go, SQL (PostgreSQL).\
+Frameworks and libraries: Ruby on Rails, React, FastAPI, Pandas, RSpec, Capybara, pytest, Jest.\
+Cloud infrastructure: AWS (EC2, ECS, RDS, Lambda, SQS, CloudFormation), Docker, Kubernetes (EKS).\
 Methodologies and practices: Agile, Scrum, Kanban, CI/CD, DevOps, TDD/BDD.
 
 ## Experience
