@@ -21,36 +21,31 @@ Methodologies and practices: Agile, Scrum, Kanban, CI/CD, DevOps, TDD/BDD.
 ## Experience
 
 {{< experience company="Navisite"
-               position="Software Engineer"
-               date="Nov 2017 – Present"
+               position="Senior Software Engineer"
+               date="Nov 2017 – Feb 2023"
                location="Remote" >}}
 
-Navisite is a cloud services provider and an IT consulting company. I'm part of
-the team responsible for the multi-cloud provisioning platform.
+Navisite is a cloud services provider and IT consulting company. I was part of the team responsible
+for the multi-cloud provisioning platform.
 
-* Developed the snapshots/backup platform with support for AWS EC2, RDS, Oracle
-  Compute, and Azure Compute instances in multiple cloud regions and time zones.
-* Developed integrations with 3rd-party cloud APIs, such as AWS (EC2, RDS, among
-  others), Oracle Cloud, and Azure. These integrations are used in provisioning,
-  maintenance, and disaster recovery automation.
-* Developed the customer panel and admin interfaces using Ruby on Rails,
-  PostgreSQL, and Sidekiq in the back-end. JavaScript and React in the
-  front-end.
-* Developed a new REST API for the platform, following the JSON API
-  specification.
-* Developed a command-line interface (CLI) for the REST API using Go. Migrated
-  part of the platform towards a serverless architecture using Python and AWS
-  Lambda with Docker (work in progress).
+* Designed and implemented new features in the customer dashboard, admin panel, and the REST API
+  using Ruby on Rails, Sidekiq, and PostgreSQL.
+* Implemented and refactored features in the front-end using JavaScript with React.
+* Designed a new snapshot/backup system with support for multiple cloud providers, including AWS
+  (EC2, RDS), Oracle, and Azure. This system has proven to be very reliable, more efficient, and has
+  helped the company recover data in multiple situations.
+* Developed integrations with third-party cloud APIs and SDKs, such as AWS (EC2, RDS, Lambda),
+  Oracle Cloud, and Azure. These integrations are utilized in cloud automation and have helped the
+  company reduce manual efforts and costs.
+* Developed a command-line interface (CLI) for the REST API using Go.
+* Designed a new serverless architecture for the provisioning platform using Python, AWS Lambda, AWS
+  SQS, and Docker.
 
-The Ruby stack includes Ruby on Rails for web applications and APIs, Sidekiq and
-AWS SQS for background jobs, RSpec, VCR, and Capybara for automated tests. The
-front-end stack includes JavaScript, React and Jest for automated tests. Lambda
-functions are written in Python, tested with Pytest, and deployed as Docker
-images. We use GitHub flow in our development workflow, with code reviews and a
-complete CI/CD pipeline.
+Skills: Ruby, Ruby on Rails, Python, JavaScript, React, Docker, PostgreSQL, AWS Lambda, AWS EC2, AWS
+SQS, REST, TDD, CI/CD, Kanban.
 
 {{< experience company="Acesso"
-               position="Software Engineer"
+               position="Senior Software Engineer"
                date="Mar 2017 – Nov 2017"
                location="São Paulo, SP, Brazil" >}}
 
