@@ -20,6 +20,23 @@ Methodologies and practices: Agile, Scrum, Kanban, CI/CD, DevOps, TDD/BDD.
 
 ## Experience
 
+{{< experience company="Skie.io"
+               position="Senior Software Engineer"
+               date="Mar 2023 – Present"
+               location="Remote" >}}
+
+Skie.io offers cloud cost optimization services (FinOps).
+
+* Designed and developed the core REST API using Ruby, Grape, and PostgreSQL, which is capable of
+  ingesting large amounts of data from cloud providers such as AWS and Azure.
+* Developed an ETL workflow in Python to process costs and metrics from multiple AWS and Azure
+  services, including Cost Explorer, EC2, RDS, CloudWatch, and Azure Cost Management.
+* Developed the customer dashboard using Ruby on Rails and React, where users can sign up and view
+  metrics and charts that showcase cost optimization opportunities in their AWS or Azure accounts.
+
+Skills: Ruby, Ruby on Rails, Python, JavaScript, Docker, PostgreSQL, AWS, SQL, Pandas, Jupyter
+Notebook, FastAPI, CI/CD, Kanban.
+
 {{< experience company="Navisite"
                position="Senior Software Engineer"
                date="Nov 2017 – Feb 2023"
