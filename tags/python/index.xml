@@ -14,14 +14,14 @@
       <link>https://lenon.dev/blog/python-code-linters-and-analyzers/</link>
       <pubDate>Sun, 05 Jun 2022 15:00:00 +0000</pubDate>
       <guid>https://lenon.dev/blog/python-code-linters-and-analyzers/</guid>
-      <description>Code linters are great for finding errors, bugs, and code smells before they reach production. They help keep the code base readable, maintainable, and consistent. Some linters are focused only on code style, while others can offer more in-depth refactoring suggestions.&#xA;In this post, I made a small list to compare some of the available code linters for Python because a lot has changed since the last time I checked them.</description>
+      <description>&lt;p&gt;Code linters are great for finding errors, bugs, and code smells before they&#xA;reach production. They help keep the code base readable, maintainable, and&#xA;consistent. Some linters are focused only on code style, while others can offer&#xA;more in-depth refactoring suggestions.&lt;/p&gt;&#xA;&lt;p&gt;In this post, I made a small list to compare some of the available code linters&#xA;for Python because a lot has changed since the last time I checked them. I&#xA;included a brief description of the most relevant features of each one of them,&#xA;and at the end of this post, I share what I think makes sense for new Python&#xA;projects.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Downloading and caching large files using Python</title>
       <link>https://lenon.dev/blog/downloading-and-caching-large-files-using-python/</link>
       <pubDate>Mon, 24 May 2021 22:00:00 +0000</pubDate>
       <guid>https://lenon.dev/blog/downloading-and-caching-large-files-using-python/</guid>
-      <description>While writing a small Python library to download and parse a large CSV file from the web, I had to implement a strategy to cache the file locally and avoid downloading it on every execution. I wanted the library to download the file only once on the first execution and also when it has changed on the server. In this blog post I&amp;rsquo;m describing how to implement this with Python, basic HTTP headers and file manipulation.</description>
+      <description>&lt;p&gt;While writing a small Python library to download and parse a large CSV file from&#xA;the web, I had to implement a strategy to cache the file locally and avoid&#xA;downloading it on every execution. I wanted the library to download the file&#xA;only once on the first execution and also when it has changed on the server. In&#xA;this blog post I&amp;rsquo;m describing how to implement this with Python, basic HTTP&#xA;headers and file manipulation.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

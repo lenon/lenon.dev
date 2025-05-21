@@ -14,7 +14,7 @@
       <link>https://lenon.dev/blog/downloading-and-caching-large-files-using-python/</link>
       <pubDate>Mon, 24 May 2021 22:00:00 +0000</pubDate>
       <guid>https://lenon.dev/blog/downloading-and-caching-large-files-using-python/</guid>
-      <description>While writing a small Python library to download and parse a large CSV file from the web, I had to implement a strategy to cache the file locally and avoid downloading it on every execution. I wanted the library to download the file only once on the first execution and also when it has changed on the server. In this blog post I&amp;rsquo;m describing how to implement this with Python, basic HTTP headers and file manipulation.</description>
+      <description>&lt;p&gt;While writing a small Python library to download and parse a large CSV file from&#xA;the web, I had to implement a strategy to cache the file locally and avoid&#xA;downloading it on every execution. I wanted the library to download the file&#xA;only once on the first execution and also when it has changed on the server. In&#xA;this blog post I&amp;rsquo;m describing how to implement this with Python, basic HTTP&#xA;headers and file manipulation.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -14,7 +14,7 @@
       <link>https://lenon.dev/blog/python-code-linters-and-analyzers/</link>
       <pubDate>Sun, 05 Jun 2022 15:00:00 +0000</pubDate>
       <guid>https://lenon.dev/blog/python-code-linters-and-analyzers/</guid>
-      <description>Code linters are great for finding errors, bugs, and code smells before they reach production. They help keep the code base readable, maintainable, and consistent. Some linters are focused only on code style, while others can offer more in-depth refactoring suggestions.&#xA;In this post, I made a small list to compare some of the available code linters for Python because a lot has changed since the last time I checked them.</description>
+      <description>&lt;p&gt;Code linters are great for finding errors, bugs, and code smells before they&#xA;reach production. They help keep the code base readable, maintainable, and&#xA;consistent. Some linters are focused only on code style, while others can offer&#xA;more in-depth refactoring suggestions.&lt;/p&gt;&#xA;&lt;p&gt;In this post, I made a small list to compare some of the available code linters&#xA;for Python because a lot has changed since the last time I checked them. I&#xA;included a brief description of the most relevant features of each one of them,&#xA;and at the end of this post, I share what I think makes sense for new Python&#xA;projects.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

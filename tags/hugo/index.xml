@@ -14,7 +14,7 @@
       <link>https://lenon.dev/blog/how-to-publish-a-blog-on-github-pages-with-hugo-and-github-actions/</link>
       <pubDate>Sun, 25 Oct 2020 21:00:00 +0000</pubDate>
       <guid>https://lenon.dev/blog/how-to-publish-a-blog-on-github-pages-with-hugo-and-github-actions/</guid>
-      <description>I decided to start a new blog and, after looking at many of the available options for blogging, I chose a static site generator. I had used Jekyll in the past, but this time I wanted to try something new, so I gave Hugo a try. I also wanted to publish this blog to GitHub Pages whenever I push new content to the GitHub repo. So in this blog post I describe how I&amp;rsquo;m using it along with GitHub actions to automatically deploy this blog to GitHub Pages.</description>
+      <description>&lt;p&gt;I decided to start a new blog and, after looking at many of the available&#xA;options for blogging, I chose a static site generator. I had used Jekyll in the&#xA;past, but this time I wanted to try something new, so I gave &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo&lt;/a&gt; a try.&#xA;I also wanted to publish this blog to GitHub Pages whenever I push new content&#xA;to the GitHub repo. So in this blog post I describe how I&amp;rsquo;m using it along with&#xA;GitHub actions to automatically deploy this blog to GitHub Pages.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
